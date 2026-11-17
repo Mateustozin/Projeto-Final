@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explorar | Pokédex do Grupo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <p class="logo">Pokédex do Grupo 2</p>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="explorar.html">Explorar</a></li>
+        <li><a href="ferramentas.html">Ferramentas</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+    <button id="botaoTema" type="button">Modo escuro</button>
+  </header>
+  <main>
+    <section>
+      <h1>Explorar Pokémon</h1>
+      <div class="controles">
+        <label for="busca">Buscar por nome</label>
+        <input type="search" id="busca" placeholder="Ex.: pikachu">
+        <label for="filtroTipo">Tipo</label>
+        <select id="filtroTipo">
+          <option value="todos">Todos</option>
+          <option value="fire">Fogo</option>
+          <option value="water">Água</option>
+          <option value="grass">Planta</option>
+          <option value="electric">Elétrico</option>
+          <option value="bug">Inseto</option>
+          <option value="normal">Normal</option>
+          <option value="poison">Veneno</option>
+        </select>
+      </div>
+      <p id="status" role="status"></p>
+      <section id="listaCartoes" class="grade"></section>
+    </section>
+  </main>
+  <footer>
+    <p>Projeto final de Desenvolvimento Web. Dados: PokéAPI.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ferramentas | Pokédex do Grupo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <p class="logo">Pokédex do Grupo 2</p>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="explorar.html">Explorar</a></li>
+        <li><a href="ferramentas.html">Ferramentas</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+    <button id="botaoTema" type="button">Modo escuro</button>
+  </header>
+  <main>
+    <section>
+      <h1>Ferramentas</h1>
+      <h2>Calculadora</h2>
+      <div class="controles">
+        <label for="numeroA">Número A</label>
+        <input type="number" id="numeroA" value="10">
+        <label for="numeroB">Número B</label>
+        <input type="number" id="numeroB" value="2">
+        <label for="operacao">Operação</label>
+        <select id="operacao">
+          <option value="somar">Somar</option>
+          <option value="subtrair">Subtrair</option>
+          <option value="multiplicar">Multiplicar</option>
+          <option value="dividir">Dividir</option>
+        </select>
+        <button id="botaoCalcular" type="button">Calcular</button>
+      </div>
+      <p id="resultadoCalculo" role="status"></p>
+    </section>
+    <section>
+      <h2>Estatísticas dos favoritos</h2>
+      <button id="botaoMedias" type="button">Calcular médias</button>
+      <p id="resultadoMedias" role="status"></p>
+      <label for="pesoMinimo">Peso mínimo (kg)</label>
+      <input type="number" id="pesoMinimo" value="10">
+      <button id="botaoFiltrar" type="button">Filtrar favoritos</button>
+      <ul id="listaFiltrada"></ul>
+    </section>
+  </main>
+  <footer>
+    <p>Projeto final de Desenvolvimento Web. Dados: PokéAPI.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
