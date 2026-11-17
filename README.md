@@ -5,10 +5,10 @@ Web Development: Front-End
 
 **Tema:** Pokédex (PokéAPI)
 
-## Integrantes e o que cada um fez
-- Fernando Moro — (o que fez)
-- Kauan Cunha da Silva — (o que fez)
-- Mateus Augusto Tozin Ferreira — (o que fez)
+## Integrantes 
+- Fernando Moro 
+- Kauan Cunha da Silva 
+- Mateus Augusto Tozin Ferreira 
 
 ## API usada
 - Lista: `https://pokeapi.co/api/v2/pokemon?limit=24`
